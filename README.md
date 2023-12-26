@@ -102,39 +102,66 @@ Q(t+1)=T′Q(t)+TQ(t)′
 ⇒Q(t+1)=T⊕Q(t)
 
 ### Procedure
-/* write all the steps invloved */
+Create a New Project: Open Quartus and create a new project by selecting "File" > "New Project Wizard." Follow the wizard's instructions to set up your project, including specifying the project name, location, and target device (FPGA). 2. Create a New Design File:
+
+Once the project is created, right-click on the project name in the Project Navigator and select "Add New File." Choose "Verilog HDL File" or "VHDL File," depending on your chosen hardware description language. 3. Write the Combinational Logic Code:
+
+Open the newly created Verilog or VHDL file and write the code for your combinational logic. 4. Compile the Project: To compile the project, click on "Processing" > "Start Compilation" in the menu. Quartus will analyze your code, synthesize it into a netlist, and perform optimizations based on your target FPGA device. 5. Analyze and Fix Errors:
+
+If there are any errors or warnings during the compilation process, Quartus will display them in the Messages window. Review and fix any issues in your code if necessary. View the RTL diagram. 6. Verification:
+
+Click on "File" > "New" > "Verification/Debugging Files" > "University Program VWF".
+
+Once Waveform is created Right Click on the Input/Output Panel > " Insert Node or Bus" > Click on Node Finder > Click On "List" > Select All. Give the Input Combinations according to the Truth Table amd then simulate the Output Waveform.
 
 
 
 ### PROGRAM 
-/*
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
-
-
-
-
-
+Developed by: Aravindan D
+RegisterNumber: 23013092
 
 ### RTL LOGIC FOR FLIPFLOPS 
 
+![Screenshot 2023-12-26 232322](https://github.com/Aravindan2006/Experiment--05-Implementation-of-flipflops-using-verilog/assets/151760062/6fdef5a2-3c8d-4780-a218-009744b67e84)
 
+![Screenshot 2023-12-26 232346](https://github.com/Aravindan2006/Experiment--05-Implementation-of-flipflops-using-verilog/assets/151760062/75b52b7e-143f-4146-bf57-2ec76c786466)
 
+![Screenshot 2023-12-26 232411](https://github.com/Aravindan2006/Experiment--05-Implementation-of-flipflops-using-verilog/assets/151760062/be27dcd8-92b8-4f95-a30c-6c0f0a4a672b)
 
+![Screenshot 2023-12-26 232433](https://github.com/Aravindan2006/Experiment--05-Implementation-of-flipflops-using-verilog/assets/151760062/60a55f07-94b2-4b9c-9a64-d6f86c00a9bd)
 
+## RTL DIAGRAM
 
+![Screenshot 2023-12-26 232547](https://github.com/Aravindan2006/Experiment--05-Implementation-of-flipflops-using-verilog/assets/151760062/ce4db3e4-d009-42ad-a481-fb04728a43bb)
 
+![Screenshot 2023-12-26 232613](https://github.com/Aravindan2006/Experiment--05-Implementation-of-flipflops-using-verilog/assets/151760062/1ad80449-84ae-4b46-8669-f16f13899e2d)
+
+![Screenshot 2023-12-26 232635](https://github.com/Aravindan2006/Experiment--05-Implementation-of-flipflops-using-verilog/assets/151760062/af9f9f90-4fc2-410e-982d-89ebef83687e)
+
+![Screenshot 2023-12-26 232659](https://github.com/Aravindan2006/Experiment--05-Implementation-of-flipflops-using-verilog/assets/151760062/915741b2-1860-4e59-8cdd-611b97c2829c)
+
+### TRUTH TABLE 
+
+![Screenshot 2023-12-26 232811](https://github.com/Aravindan2006/Experiment--05-Implementation-of-flipflops-using-verilog/assets/151760062/38365329-9f87-4901-b8c0-d4e56617ab33)
+
+![Screenshot 2023-12-26 232852](https://github.com/Aravindan2006/Experiment--05-Implementation-of-flipflops-using-verilog/assets/151760062/e78a5ebd-9736-4de9-8bd5-4e0fe1e14e13)
+
+![Screenshot 2023-12-26 232927](https://github.com/Aravindan2006/Experiment--05-Implementation-of-flipflops-using-verilog/assets/151760062/6c2d2cd2-df28-475d-80bd-3f32c5c65264)
+
+![Screenshot 2023-12-26 232952](https://github.com/Aravindan2006/Experiment--05-Implementation-of-flipflops-using-verilog/assets/151760062/faeff399-dcd4-41a9-bae1-5a6cd7c328cd)
 
 
 ### TIMING DIGRAMS FOR FLIP FLOPS 
 
+![Screenshot 2023-12-26 233025](https://github.com/Aravindan2006/Experiment--05-Implementation-of-flipflops-using-verilog/assets/151760062/5c8e9b4c-677e-4276-b43f-606dedd1caf5)
 
+![Screenshot 2023-12-26 233101](https://github.com/Aravindan2006/Experiment--05-Implementation-of-flipflops-using-verilog/assets/151760062/9b045bec-f077-4f0c-bcbf-aa2f65980e7e)
 
+![Screenshot 2023-12-26 233127](https://github.com/Aravindan2006/Experiment--05-Implementation-of-flipflops-using-verilog/assets/151760062/a9549eb2-9f8b-4209-8d3b-67a48b7df156)
 
-
-
+![Screenshot 2023-12-26 233148](https://github.com/Aravindan2006/Experiment--05-Implementation-of-flipflops-using-verilog/assets/151760062/1474381a-739e-4595-87ef-f393faa42382)
 
 
 ### RESULTS 
+Thus, all the FLIP FLOPS are designed and the truth tables are verified using quartus software.
